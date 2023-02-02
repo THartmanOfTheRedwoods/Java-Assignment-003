@@ -52,17 +52,30 @@ Your assignment is to use Built-In java classes to:
 1. Screenshot the map and add it into the **images** folder of this project.
 1. Last add image markdown below this line to load your map image (Hint: Example image Markdown is just a couple lines above this).
 
+![Ollie the Otter Location Map](images/mapScreenshot.PNG)
+
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
     * What is the **access modifer** (e.g. public, private, protected)?
+    * **Public**
     * Is it a **Class method** or an **object Instance method**, how do you know?
+    * **HiddenSecrets is a class method as it is declared after the access modifier.**
     * What is its **return data-type**?
+    * **The return data type is type file.**
     * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+    * **One argument is required of type file.**
 * Scan line by line through the code and try to determine how it works?
     * What is familiar to you?
     * What is not familiar to you?
     * Do the **for** loops make sense, and if so, tell me what you think they do?
+    * *** The declaring of access modifier and class is familiar as is the use of a data type (file), though I’ve never used data type file up until now. 
+    * I see some boolean logic used to structure if the method works vs. if it garners an unreadable string (error). 
+    * I see some format modifiers for the error output. 
+    * I am unfamiliar with the “for” logic operator and the general logic flow of the entire method. 
+    * I’m still struggling with Java logic and syntax. 
+    * I also see some data types I’ve not seen before such as “tag,” and I see some unknown methods such as “directory.”**
+
 
 ## PART 4 - Turn in
 
