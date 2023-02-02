@@ -39,30 +39,40 @@ Your assignment is to use Built-In java classes to:
       java.util.Scanner;
       java.nio.file.Path;
       ```
-1. Read a **jpg file path** from the user.
+2. Read a **jpg file path** from the user.
      * HINT 1: Create a **Scanner** object instance and use it to read a string.
      * HINT 2: Use **Paths** class to get a path from your input!
          * Google java.nio.file.Paths for help OR [Look for examples HERE](https://www.geeksforgeeks.org/java-nio-file-paths-class-in-java/)
-1. From your path object call a **method** that converts the file path to a **File** type object (**Cause that's what the provided getHiddenSecret method declares as its parameters**).
-1. Pass the file object as an argument to the given **getHiddenSecrets** method.
-1. Run the program and type in the path for our sample image, and record the GPS coordinates in the output.
+3. From your path object call a **method** that converts the file path to a **File** type object (**Cause that's what the provided getHiddenSecret method declares as its parameters**).
+4. Pass the file object as an argument to the given **getHiddenSecrets** method.
+5. Run the program and type in the path for our sample image, and record the GPS coordinates in the output.
   ![Ollie the Otter Image](images/OllieTheOtter.jpg)
     * HINT: the path can be relative to the project directory, maybe use the string in the example above :-)
-1. Look up the latitude and longitude coordinates in any online map you can find via Google.
-1. Screenshot the map and add it into the **images** folder of this project.
-1. Last add image markdown below this line to load your map image (Hint: Example image Markdown is just a couple lines above this).
+6. Look up the latitude and longitude coordinates in any online map you can find via Google.
+7. Screenshot the map and add it into the **images** folder of this project.
+8. Last add image markdown below this line to load your map image (Hint: Example image Markdown is just a couple lines above this).
+   ![](images/Untitled2000.png)
 
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
-    * What is the **access modifer** (e.g. public, private, protected)?
+    * What is the **access modifer** (e.g. public, private, protected)? 
+      * public
     * Is it a **Class method** or an **object Instance method**, how do you know?
+      * I believe it is a class method since we don't need to make a "new" instance to use it.
     * What is its **return data-type**?
+      * void
     * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+      * 1 argument with the type of File (java.io.File)
 * Scan line by line through the code and try to determine how it works?
     * What is familiar to you?
+      * it looks like we first get the metadata from the image
+      * then we loop through all the data to compile a readable list for the user
+      * if there was an issue with this process, we display the issues
     * What is not familiar to you?
+      * I understand everything
     * Do the **for** loops make sense, and if so, tell me what you think they do?
+      * although I am not used to this syntax for the **for** loops, I am assuming it is some kind of foreach where we loop through each X in Y
 
 ## PART 4 - Turn in
 
