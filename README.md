@@ -51,18 +51,25 @@ Your assignment is to use Built-In java classes to:
 1. Look up the latitude and longitude coordinates in any online map you can find via Google.
 1. Screenshot the map and add it into the **images** folder of this project.
 1. Last add image markdown below this line to load your map image (Hint: Example image Markdown is just a couple lines above this).
-
+    ![Web capture_3-2-2023_12599_www.google.com.jpeg](images%2FWeb%20capture_3-2-2023_12599_www.google.com.jpeg)
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
-    * What is the **access modifer** (e.g. public, private, protected)?
+    * What is the **access modifier** (e.g. public, private, protected)?
+        * The access modifier is public.
     * Is it a **Class method** or an **object Instance method**, how do you know?
+        * This is a class method because it has the static keyword.
     * What is its **return data-type**?
+        * The method uses the void keyword so it has no return type.
     * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+        * It requires one parameter of the file datatype.
 * Scan line by line through the code and try to determine how it works?
     * What is familiar to you?
+        * The sout, formatting, and for loops all look familiar.
     * What is not familiar to you?
+        * I am unfamiliar with the functions it uses.
     * Do the **for** loops make sense, and if so, tell me what you think they do?
+        * I don't fully understand what the for loops are doing, but it looks like the first one is going through all the directories with the second one nested within it taking the directory that the first one is on and printing out all the datapoints it contains. The third one lets the user know what errors a directory contains.
 
 ## PART 4 - Turn in
 
