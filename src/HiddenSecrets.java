@@ -1,3 +1,12 @@
+/**
+ *
+ * @author Trevor Hartman
+ * @author Geng Cha
+ *
+ * @since Version 1.0
+ *
+ */
+
 import com.drew.imaging.ImageProcessingException;
 import com.drew.metadata.Metadata;
 import com.drew.metadata.Directory;
@@ -7,6 +16,10 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+
+import java.nio.file.Paths;
+import java.util.Scanner;
+import java.nio.file.Path;
 
 // PUT YOUR IMPORTS HERE
 
@@ -42,5 +55,14 @@ public class HiddenSecrets {
         // convert that string into A Path type using Paths class,
         // and call the getHiddenSecrets method to get the file's meta-data
         // HERE
+
+        Scanner read = new Scanner(System.in);
+        String plsSendToDeFiles = read.nextLine();
+
+        Path path = (Path)Paths.get(plsSendToDeFiles);
+        System.out.println(path);
+
+        getHiddenSecrets(path.toFile());
+
     }
 }

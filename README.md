@@ -45,12 +45,21 @@ Your assignment is to use Built-In java classes to:
          * Google java.nio.file.Paths for help OR [Look for examples HERE](https://www.geeksforgeeks.org/java-nio-file-paths-class-in-java/)
 1. From your path object call a **method** that converts the file path to a **File** type object (**Cause that's what the provided getHiddenSecret method declares as its parameters**).
 1. Pass the file object as an argument to the given **getHiddenSecrets** method.
-1. Run the program and type in the path for our sample image, and record the GPS coordinates in the output.
-  ![Ollie the Otter Image](images/OllieTheOtter.jpg)
-    * HINT: the path can be relative to the project directory, maybe use the string in the example above :-)
+   1. Run the program and type in the path for our sample image, and record the GPS coordinates in the output.
+     ![Ollie the Otter Image](images/OllieTheOtter.jpg)
+       * HINT: the path can be relative to the project directory, maybe use the string in the example above :-)
 1. Look up the latitude and longitude coordinates in any online map you can find via Google.
 1. Screenshot the map and add it into the **images** folder of this project.
 1. Last add image markdown below this line to load your map image (Hint: Example image Markdown is just a couple lines above this).
+
+
+
+
+ ![Coordinates]((images/Scrrenshot 2023-02-05 131059.jpg))    
+
+
+
+
 
 ## PART 3 - Code Scanning and Interpretation
 
@@ -64,6 +73,21 @@ Your assignment is to use Built-In java classes to:
     * What is not familiar to you?
     * Do the **for** loops make sense, and if so, tell me what you think they do?
 
+Answers:  
+- The access modifier is public
+- I'm pretty sure it's a class method, because of the word static.
+- The return type is void
+
+- We passed the Path to the method as an argument
+- I think the parameter is the file path that is now a path data type after being converted from a string into a path
+
+- The things that are familiar to me are the souts, that's about it...
+- The things that look new to me are the System.err, if, for and catch and the things that ask for the directory
+
+- I think the way it works is that after the method gets the path data, it sees if the path matches the directory format, it will be outputted.
+- It looks like System.err occurs whenever it doesn't follow the directory format, or the image doesn't exist or is not there.
+
+
 ## PART 4 - Turn in
 
 ### Same as the last 2 Weeks!
@@ -71,3 +95,12 @@ Your assignment is to use Built-In java classes to:
 * When completed, use your IDE to **Commit** and **Push** your **feature branch** back to your GitHub Account's **fork** of Java-Assignment-003.
 * From your GitHub account's feature branch, issue a New **Pull request** from your **feature branch** to the instructor's fork
 * Save the *Pull Request URL* to submit to your Canvas assignment.
+  
+* /**
+*
+* @author Trevor Hartman
+* @author Geng Cha
+*
+* @since Version 1.0
+*
+*/
