@@ -55,14 +55,14 @@ Your assignment is to use Built-In java classes to:
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
-    * What is the **access modifer** (e.g. public, private, protected)?
-    * Is it a **Class method** or an **object Instance method**, how do you know?
-    * What is its **return data-type**?
-    * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
-* Scan line by line through the code and try to determine how it works?
-    * What is familiar to you?
-    * What is not familiar to you?
-    * Do the **for** loops make sense, and if so, tell me what you think they do?
+    * What is the **access modifer** Public
+    * Is it a **Class method** or an **object Instance method**, how do you know? I believe it's an object instance method since it needs a class method to function. 
+    * What is its **return data-type**? it outputs the data as strings. 
+    * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**? it requires one parameter and it must be an object.
+* Scan line by line through the code and try to determine how it works? it appears to enter the directory of the file and pull the data from the Description, tagName and Name categories.
+    * What is familiar to you? nothing really. 
+    * What is not familiar to you? Almost everything in the program.
+    * Do the **for** loops make sense, and if so, tell me what you think they do? For loops make sense, depending on a certain variable they execute a line of code, it's similar to an if statement but a bit more specialized.
 
 ## PART 4 - Turn in
 
