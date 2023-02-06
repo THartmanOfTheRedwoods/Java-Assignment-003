@@ -1,3 +1,9 @@
+/**
+* @author Trevor Hartman
+* @author Mike Quist
+* @since Version 1.0
+  */
+
 # Java-Assignment-003
 
 ### Input, Packages, Imports, and a static Method
@@ -51,18 +57,18 @@ Your assignment is to use Built-In java classes to:
 1. Look up the latitude and longitude coordinates in any online map you can find via Google.
 1. Screenshot the map and add it into the **images** folder of this project.
 1. Last add image markdown below this line to load your map image (Hint: Example image Markdown is just a couple lines above this).
-
+  ![Map Image](images/map.png)
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
-    * What is the **access modifer** (e.g. public, private, protected)?
-    * Is it a **Class method** or an **object Instance method**, how do you know?
-    * What is its **return data-type**?
-    * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+    * What is the **access modifier** (e.g. public, private, protected)? Public
+    * Is it a **Class method** or an **object Instance method**, how do you know? Class, because 'Public' is a class.
+    * What is its **return data-type**? Void
+    * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**? Looks like you called it with 'File file' arguments. So two parameters, and I don't know what data type.
 * Scan line by line through the code and try to determine how it works?
-    * What is familiar to you?
-    * What is not familiar to you?
-    * Do the **for** loops make sense, and if so, tell me what you think they do?
+    * What is familiar to you? Nothing, really.
+    * What is not familiar to you? None of this is familiar to me. I am brand new to any kind of programming.
+    * Do the **for** loops make sense, and if so, tell me what you think they do? No they don't make sense to me.
 
 ## PART 4 - Turn in
 
