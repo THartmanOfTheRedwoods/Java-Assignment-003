@@ -6,7 +6,6 @@
  * @since Version 1.0
  *
  */
-
 package src;
 
 import com.drew.imaging.ImageProcessingException;
