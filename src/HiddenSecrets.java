@@ -3,12 +3,14 @@ import com.drew.metadata.Metadata;
 import com.drew.metadata.Directory;
 import com.drew.metadata.Tag;
 import com.drew.imaging.ImageMetadataReader;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
-import java.io.IOException;
+import com.sun.jdi.PathSearchingVirtualMachine;
+
+import java.io.*;
 
 // PUT YOUR IMPORTS HERE
+import java.nio.file.Paths;
+import java.util.Scanner;
+import java.nio.file.Path;
 
 public class HiddenSecrets {
     public static void getHiddenSecrets(File file) {
@@ -42,5 +44,16 @@ public class HiddenSecrets {
         // convert that string into A Path type using Paths class,
         // and call the getHiddenSecrets method to get the file's meta-data
         // HERE
+        Scanner image = new Scanner(System.in);
+        String line;
+        System.out.println("Enter the path to a JPEG file: ");
+        line = image.nextLine();
+        Path filePath = Paths.get(line);
+        getHiddenSecrets(filePath.toFile());
+        System.out.println();
+
+
+
+
     }
 }

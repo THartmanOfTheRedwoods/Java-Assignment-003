@@ -51,18 +51,25 @@ Your assignment is to use Built-In java classes to:
 1. Look up the latitude and longitude coordinates in any online map you can find via Google.
 1. Screenshot the map and add it into the **images** folder of this project.
 1. Last add image markdown below this line to load your map image (Hint: Example image Markdown is just a couple lines above this).
-
+    ![Assignment 003 Image](images/Assignment 003 Image.png)
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
-    * What is the **access modifer** (e.g. public, private, protected)?
-    * Is it a **Class method** or an **object Instance method**, how do you know?
-    * What is its **return data-type**?
-    * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+  * What is the **access modifer** (e.g. public, private, protected)?
+     * The getHiddenSecrets access modifer is public.
+   * Is it a **Class method** or an **object Instance method**, how do you know?
+     * This is is an object Instance method, because the first letter is not capitalized and the rest of it is camel cased. 
+   * What is its **return data-type**?
+     * The return data-type is file, which is a string.
+   * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+     * It does require an argument, it requires a single parameter of a file in a string data type to call it. 
 * Scan line by line through the code and try to determine how it works?
     * What is familiar to you?
+      * The classes, variables, and sout are familiar.
     * What is not familiar to you?
+      * Just about everything else in the code, the large amount of imports, commands, if statements, and getTag commands.
     * Do the **for** loops make sense, and if so, tell me what you think they do?
+      * unfortunately, the for loops do not make sense to me, aside from the fact that they loop.
 
 ## PART 4 - Turn in
 
