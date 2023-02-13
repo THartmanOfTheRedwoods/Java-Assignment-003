@@ -51,18 +51,32 @@ Your assignment is to use Built-In java classes to:
 1. Look up the latitude and longitude coordinates in any online map you can find via Google.
 1. Screenshot the map and add it into the **images** folder of this project.
 1. Last add image markdown below this line to load your map image (Hint: Example image Markdown is just a couple lines above this).
-
+   ![Secret Place image](images/SecretPlace.jpg)
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
-    * What is the **access modifer** (e.g. public, private, protected)?
+    * What is the **access modifier** (e.g. public, private, protected)?
+      <br> Public
     * Is it a **Class method** or an **object Instance method**, how do you know?
+      <br> Class method, because the method is defined as static.
     * What is its **return data-type**?
+      <br> void
     * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+      <br>Yes, it does require an argument (the argument is the input that we enter) . There is only 1 parameter (file) with data type File.
 * Scan line by line through the code and try to determine how it works?
     * What is familiar to you?
+      <br> I'm familiar with using the Scanner class to read input from user.
+      I also know what the syntax (public, static, void) before the method means.
+      I understand the flow of execution and how to create and call a method.
     * What is not familiar to you?
+      <br> I'm not familiar with using the Paths class and importing an external jar file into my project.
+      (It took me 2 hours to figure out how to build a Java Archive artifact and import it into my project.
+      I ended up watching your instruction video 3 times.). I also don't really understand how the method
+      getHiddenSecrets() works.
     * Do the **for** loops make sense, and if so, tell me what you think they do?
+      <br> The for loops don't really make sense to me. I guess they help us identify if the input we enter is valid or not.
+      ( I see an **if** statement in the method.
+      Also, when I enter OllieTheOtter.jpg instead of images/OllieTheOtter.jpg, it says "That file does not exist")
 
 ## PART 4 - Turn in
 
