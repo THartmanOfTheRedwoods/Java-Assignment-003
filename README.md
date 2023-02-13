@@ -56,13 +56,34 @@ Your assignment is to use Built-In java classes to:
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
     * What is the **access modifer** (e.g. public, private, protected)?
-    * Is it a **Class method** or an **object Instance method**, how do you know?
-    * What is its **return data-type**?
-    * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+*
+*public because it's accessible outside the assignment
+* 
+  * Is it a **Class method** or an **object Instance method**, how do you know?
+*
+*I think it's a Class method because I need to call upon the class getHiddenSecrets.
+* 
+  * What is its **return data-type**?
+* 
+* Void
+* 
+  * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+
+I think the argumnets for it are the scanner,sout, path to getHiddenSecrets File file, and getHiddenSecrets.
+
 * Scan line by line through the code and try to determine how it works?
     * What is familiar to you?
-    * What is not familiar to you?
-    * Do the **for** loops make sense, and if so, tell me what you think they do?
+* 
+* the souts and scanners are familiar
+* 
+  * What is not familiar to you?
+* 
+* All of the getHiddenSecrets anti crash code is new to me as well as most of the imports.
+* 
+  * Do the **for** loops make sense, and if so, tell me what you think they do?
+
+I believe the For loops stop crashing while connecting to the metadata external file.
+
 
 ## PART 4 - Turn in
 
