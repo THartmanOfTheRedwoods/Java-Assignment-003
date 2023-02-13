@@ -55,14 +55,18 @@ Your assignment is to use Built-In java classes to:
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
-    * What is the **access modifer** (e.g. public, private, protected)?
-    * Is it a **Class method** or an **object Instance method**, how do you know?
-    * What is its **return data-type**?
-    * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+    * What is the **access modifer** (e.g. public, private, protected)? - public
+    * Is it a **Class method** or an **object Instance method**, how do you know? - class method because it is static
+    * What is its **return data-type**? - void
+    * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**? - yes, one parameter of type File
 * Scan line by line through the code and try to determine how it works?
-    * What is familiar to you?
-    * What is not familiar to you?
-    * Do the **for** loops make sense, and if so, tell me what you think they do?
+  * It calls "readMetadata" from ImageMetadatareader to read the FileInputStream of the file parameter. It uses a for loop to check if the directory is valid, and then prints different error messages based on which exception it ran into. If there are no errors, it prints the FileInputStream of the file parameter.
+  * What is familiar to you?
+    * I am familiar with the structure of the class and method, and the use of for loops and if statements, as well as referring to classes and methods within the dependencies 
+  * What is not familiar to you?
+    * I am unfamiliar with any of the methods in the dependencies that I haven't needed to read documentation on to complete the project, and I am unsure what "try" means on line 15. I also dont know what "catch" is for.
+  * Do the **for** loops make sense, and if so, tell me what you think they do?
+    * The broader structure makes sense (I explained my interpretation above) I am not sure about what each individual for or if statement does, especially those dealing with Directory objects that don't seem to be referred to or defined elsewhere in the class.
 
 ## PART 4 - Turn in
 
