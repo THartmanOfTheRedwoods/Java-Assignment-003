@@ -51,18 +51,29 @@ Your assignment is to use Built-In java classes to:
 1. Look up the latitude and longitude coordinates in any online map you can find via Google.
 1. Screenshot the map and add it into the **images** folder of this project.
 1. Last add image markdown below this line to load your map image (Hint: Example image Markdown is just a couple lines above this).
-
+    ![gps location on map](images/GPS_capture.PNG)
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
     * What is the **access modifer** (e.g. public, private, protected)?
+      * public
     * Is it a **Class method** or an **object Instance method**, how do you know?
+      * Class Method
     * What is its **return data-type**?
+      * void
     * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+      * Yes, one parameter that is a *File* data-type
 * Scan line by line through the code and try to determine how it works?
     * What is familiar to you?
+      * error handling- try-catch block
+      * if statement
+      * for loop
+      * Sout
     * What is not familiar to you?
+      * the specific error messages I am not particularly familiar with
+      * the brackets around the first *%s* and the format line in general I don't really get what it's doing
     * Do the **for** loops make sense, and if so, tell me what you think they do?
+      * kind of? It looks like they are testing if the statement in the parentheses are true, and if so it is running what is in the braces
 
 ## PART 4 - Turn in
 
