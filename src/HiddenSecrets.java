@@ -7,8 +7,9 @@ import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
-
-// PUT YOUR IMPORTS HERE
+import java.nio.file.Paths;
+import java.util.Scanner;
+import java.nio.file.Path;
 
 public class HiddenSecrets {
     public static void getHiddenSecrets(File file) {
@@ -35,12 +36,13 @@ public class HiddenSecrets {
             System.out.println("Failed to process the image meta-data");
         }
     }
-
     public static void main(String[] args) {
-        // Put your code to request a file path,
-        // read in a string from System.in,
-        // convert that string into A Path type using Paths class,
-        // and call the getHiddenSecrets method to get the file's meta-data
-        // HERE
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter the file path: ");
+        String filePath = scanner.nextLine();
+        File file = Paths.get(filePath).toFile();
+        getHiddenSecrets(file);
+        Path path = (Path)Paths.get("C:\\Users\\Raymond\\IdeaProjects\\Java-Assignment-003\\images\\EurekaZoo.PNG");
+        System.out.println(path);
     }
 }

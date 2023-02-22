@@ -55,14 +55,30 @@ Your assignment is to use Built-In java classes to:
 ## PART 3 - Code Scanning and Interpretation
 
 * Look at the getHiddenSecrets method and identify the following parts by editing this README.md and providing your answers:
+* 
     * What is the **access modifer** (e.g. public, private, protected)?
+    * The Access Modifier is Public, Meaning all classes can Access it.
+    * 
     * Is it a **Class method** or an **object Instance method**, how do you know?
-    * What is its **return data-type**?
-    * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+    * They are Class methods because they use the static line meaning it belongs to the class itself.
+    * 
+  * What is its **return data-type**?
+  * The return type is void, it does not return any value
+  * 
+  * Does it require any **arguments** to call it, and if so, how many **parameters** and of what **data-type**?
+  * It requires an Argument and it needs one paremeter of the file data type.
+  * 
 * Scan line by line through the code and try to determine how it works?
     * What is familiar to you?
+    * I am familiar with the idea of methods and understand calling getHiddenSecrets will run all of this code. 
+    * I understand making the metadata variable a variable to declare how to use it. 
+    * I understand what the catches are and that they output an error message based on type of error.
+    * 
     * What is not familiar to you?
+    * Im unfamiliar with the if and for codes, and how all the directory codes work but for the most part it makes sense to me.
+    * 
     * Do the **for** loops make sense, and if so, tell me what you think they do?
+    * Im not 100% sure but i think it is to display an error message if the directory has errors.
 
 ## PART 4 - Turn in
 

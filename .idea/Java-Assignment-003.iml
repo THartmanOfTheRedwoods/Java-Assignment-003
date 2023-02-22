@@ -10,7 +10,16 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/external/metadata-extractor.jar!/" />
+          <root url="jar://$MODULE_DIR$/External/metadata-extractor.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/Downloads/metadata-extractor-2.18.0/out/artifacts/metadata_extractor_jar/xmpcore-6.1.11.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
