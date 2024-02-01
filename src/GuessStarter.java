@@ -1,6 +1,8 @@
 import java.util.Random;
 import java.util.Scanner;
-
+//*Austin Barnett
+// 2/1/2024
+// Version 1.0
 public class GuessStarter {
 
     public static void main(String[] args) {
