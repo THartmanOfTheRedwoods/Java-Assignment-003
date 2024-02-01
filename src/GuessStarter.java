@@ -19,7 +19,7 @@ public class GuessStarter {
 
         System.out.println("Your guess is: " + guess);
 
-        int difference = number - guess;
+        int difference = number % guess;
         System.out.println("The number I was thinking of is: " + number);
         System.out.println("Missed by: " + difference);
     }
