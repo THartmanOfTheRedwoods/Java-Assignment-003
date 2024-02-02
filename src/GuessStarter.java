@@ -25,7 +25,7 @@ public class GuessStarter {
 
         System.out.print("I am thinking of a number between 1 and 100. ");
         System.out.println("Can you guess what it is?");
-        System.out.print("Guess here: ");
+        System.out.print("Guess: ");
         number_guess = guess.nextInt();
 
         System.out.println("Your guess was: " + number_guess);
