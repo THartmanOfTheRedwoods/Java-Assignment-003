@@ -17,7 +17,7 @@ public class GuessStarter {
         int number = random.nextInt(100) + 1;
 
         System.out.println("Im thinking of a number between 1 and 100 (Including both). Can you guess what it is?");
-        System.out.print("Number: ");
+        System.out.print("Your number: ");
         int userGuess = scanner.nextInt();
 
         System.out.println("Your guess was: " + userGuess);
@@ -26,6 +26,8 @@ public class GuessStarter {
 
         int difference = (number - userGuess);
         System.out.println("The difference was: " + difference);
+
+        scanner.close();
     }
 
 }
